@@ -6,7 +6,7 @@ def apply_coupons(cart, coupons)
   # REMEMBER: This method **should** update cart
   counter = 0 
   while counter < coupons.length 
-    cart_item = 
+    cart_item = find_item_by_name_in_collection(name, collection)
   
 end
 
