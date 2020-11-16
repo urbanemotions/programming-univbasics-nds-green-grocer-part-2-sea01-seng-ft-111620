@@ -5,6 +5,7 @@ def apply_coupons(cart, coupons)
   #
   # REMEMBER: This method **should** update cart
   counter = 0 
+  while counter < coupons.length 
   
   
 end
